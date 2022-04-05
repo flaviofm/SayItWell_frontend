@@ -1,0 +1,121 @@
+
+nav {
+    width: 70vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    /* height: 6vh; */
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .3s ease;
+    z-index: 10;
+}
+
+nav .row {
+    width: auto!important;
+}
+
+
+nav.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #FFF;
+}
+
+nav a {
+    color: black;
+    font-weight: 500;
+}
+
+nav .cta {
+    background-color: #4BE3AB;
+    width: 180px;
+
+    margin-left: 10px;
+    border-radius: 1.25em;
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.123);
+}
+
+
+
+.navSearch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid 1px #d8d8d8;
+    width: 100vw;
+}
+
+.languageCont {
+    border: solid 1px #DDDDDD;
+    border-radius: 20px;
+    height: 30px;
+    /* width: 45vw; */
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-evenly;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.languageCont div:not(#searchIcon) {
+    /* margin-right: 10px; */
+    padding-right: 25px;
+    padding-left: 25px;
+    border-right: solid 1px #D8D8D8;
+    text-align: center;
+}
+
+#searchIcon {
+    border-radius: 50%;
+    background-color: #4BE3AB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 5px;
+    height: 21px;
+    width: 21px;
+}
+#searchIcon img {
+    width: 80%;
+    height: 80%;
+}
+
+#prevMenu {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    top: 60px;
+    left: 0;
+    box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.1);
+}
+
+#prevMenuBtn {
+    cursor: pointer;
+}
+#prevMenu * {
+    min-width: 280px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.logo {
+    cursor: pointer;
+}

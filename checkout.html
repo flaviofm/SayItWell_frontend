@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <section id="info">
+        <nav>
+            <img src="res/icons/logo.svg" alt="">
+            <a href="">Contattaci</a>
+        </nav>
+        
+        <form action="">
+
+            <span id="login"><img src="res/icons/user.svg" alt=""> Sei già registrato? <a href="" class="green">Accedi </a> e risparmia tempo</span>
+
+            <h2>Informazioni sul progetto</h2>
+
+            <div class="inputs">
+                <label for="Nome">
+                    Nome del progetto
+                    <input type="text" name="Nome" placeholder="Es: Traduzione sito web">
+                </label>
+                <label for="Email">
+                    E-mail
+                    <input type="text" name="Email" placeholder="email@esempio.com">
+                </label>
+            </div>
+
+            <label for="Progetto">
+                Nome del progetto
+                <textarea name="Progetto" id="Progetto" cols="30" rows="10">Aggiungi le istruzioni</textarea>
+            </label>
+            <label for="Email">
+                I tuoi documenti
+                <input type="file" name="Documenti" placeholder="Documenti">
+            </label>
+
+            <div class="row">
+                <span>Torna indietro</span>
+                <button type="submit">Procedi</button>
+            </div>
+        </form>
+
+
+    </section>
+
+    <section id="recap">
+        <span class="header">
+            RIEPILOGO ORDINE
+            <a href="" class="green">Modifica</a>
+        </span>
+
+        <span id="recapInfo">
+            <span class="between">
+                Da Italiano a
+                <b>3 lingue</b>
+            </span>
+
+            <span class="row">
+                <div class="lingua">
+                    Arabo <a href="" class="remove">X</a>
+                </div>
+            </span>
+
+            <span class="between">
+                Argomento
+                <b>Ambiente</b>
+            </span>
+            <span class="between">
+                Conteggio parole
+                <b>250</b>
+            </span>
+            <span class="between">
+                Prezzo per parola
+                <b>€ 0.723 / parola</b>
+            </span>
+            <span class="between">
+                Data di consegna
+                <b>Sab 28 Ago 12:00</b>
+            </span>
+
+            
+            <span class="between totale">
+                Totale
+                <b>18.70 €</b>
+            </span>
+        </span>
+
+    </section>
+    
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js' integrity='sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==' crossorigin='anonymous'></script>
+<script src="ui.js"></script>
+</body>
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Say It Well</title>
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <section id="landing">
+        <nav>
+            <img src="res/icons/logo.svg" alt="SaiItWell" class="logo" onclick="location.href='index.html'">
+            <div class="row">
+                <a href="">Contattaci</a>
+                <div class="cta" href="">Richiedi preventivo
+                    <div id="prevMenu">
+                        <a href="satellite1.html">Come funziona</a>
+                        <a href="satellite2.html">Chi siamo</a>
+                        <a href="work.html">Diventa un weller</a>
+                        <a href="contacts.html">Contattaci</a>
+                        <a href="" class="disabled anchorLogin">Login</a>
+                    </div>
+                </div>
+                <div class="navMenu">
+                    <img src="res/icons/menu.svg" class="menu" id="prevMenuBtn" alt="" id="prevMenuBtn">
+                    <img src="res/icons/user.svg" alt="">
+                </div>
+
+            </div>
+        </nav>
+        <div>
+            <h1>Uno strumento professionale per la traduzione</h1>
+            <div class="links" id="uploadType">
+                <span class="active" onclick="closeInserisciMenu()">Carica<i class="bottomBar"></i><input type="file" name="upload" id="upload" ></span>
+                <span class="" onclick="openInserisciMenu()">Inserisci<i class="bottomBar"></i></span>
+            </div>
+            <div class="bar">
+                <div class="langBox ">
+                    <p>Da</p>
+                    <input id="fromLanguage" type="text" value="Italiano" onclick="openFromMenu()">
+                </div>
+                <button id="swapLang">
+                    <img src="res/icons/double-arrow.svg" alt="">
+                </button>
+                <div class="langBox bordered">
+                    <p>A</p>
+                    <input id="toLanguage" type="text" value="Inglese" onclick="openToMenu()">
+                </div>
+
+                <div class="langBox bordered">
+                    <p>Argomento</p>
+                    <div class="rowArrow">
+
+                    <input id="argomento" type="text" placeholder="Generale"
+                        onclick="openTopicMenu()">
+                        <img src="res/icons/arrowDown.svg" alt="">
+                    </div>
+                </div>
+
+                <button id="uploadTesto">
+                    Carica testo <img src="res/icons/upload.svg" alt="">
+                </button>
+
+                <button id="search">
+                    <img src="res/icons/lens.svg" alt="">
+                </button>
+
+
+                <div class="langMenu" id="fromLanguageMenu">
+
+                    <div class="langContainer searchbar">
+                        <input type="text" id="searchbarFrom" placeholder="Ricerca...">
+                        <img src="res/icons/lens.svg" alt="">
+                    </div>
+                    <div class="langContainer lingua">
+                        <div class="lang">Afrinkaans</div>
+                        <div class="lang">Albanese</div>
+                        <div class="lang">Aramaico</div>
+                        <div class="lang">Arabo</div>
+                    </div>
+
+                </div>
+                <div class="langMenu" id="toLanguageMenu">
+
+
+                    <div class="side">
+
+                        <div class="langContainer searchbar">
+                            <input type="text" id="searchbarTo" placeholder="Ricerca...">
+                            <img src="res/icons/lens.svg" alt="">
+                        </div>
+                        <div class="langContainer lingua">
+                            <div class="lang">Afrinkaans</div>
+                            <div class="lang">Albanese</div>
+                            <div class="lang">Aramaico</div>
+                            <div class="lang">Arabo</div>
+                        </div>
+                    </div>
+
+
+                    <div class="side smaller" id="linguaSelezionata">
+                        <h5>Lingua selezionata</h5>
+                        <div class="lang active">Afrinkaans <i>x</i></div>
+                        <div class="lang">Albanese <i>x</i></div>
+
+                    </div>
+
+                </div>
+                <div class="langMenu" id="topicMenu">
+
+                    <div class="langContainer searchbar">
+                        <input type="text" id="searchbarTopic" placeholder="Ricerca...">
+                        <img src="res/icons/lens.svg" alt="">
+                    </div>
+                    <div class="langContainer lingua">
+                        <span class="topic">Ambiente</span>
+                        <span class="topic">Architettura</span>
+                        <span class="topic">Arte</span>
+                        <span class="topic">Assicurazioni</span>
+                    </div>
+
+                </div>
+                <div class="langMenu" id="inserisciMenu">
+                    <textarea name="insert" id="insert" cols="30" rows="10">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem consequat massa quis enim. Donec pede justo, fringill
+                    </textarea>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <p class="bottomText">
+            <span>Hai esigenze più complesse? <a href="">Contattaci</a></span><br>
+            275.950 traduttori professionisti 213.266 clienti traducono in modo intelligente
+        </p>
+    </section>
+
+    <section id="howItWorks">
+        <p class="title">Come funziona say it well</p>
+        <div class="row">
+            <div class="tile">
+                <img src="res/img/lingua.svg" alt="">
+                <h2>Scegli la lingua</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam officia animi provident similique,
+                    incidunt!</p>
+            </div>
+            <div class="tile">
+                <img src="res/img/settore.svg" alt="">
+                <h2>Scegli il settore</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam officia animi provident similique,
+                    incidunt reprehenderit dignissimos facilis mollitia!</p>
+            </div>
+            <div class="tile">
+                <img src="res/img/preventivo.svg" alt="">
+                <h2>Richiedi il<br> preventivo</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+            </div>
+        </div>
+        <a class="button" href="">Scopri di più <img src="res/icons/white-arrow.svg" alt="" srcset=""></a>
+    </section>
+
+    <section id="whyChoose">
+        <div class="column">
+            <p class="title">Perchè sceglierci</p>
+            <h2><img src="res/icons/big-arrow.svg" alt=""> Professionisti<br>Quotazioni immediate<br>Terzo Values</h2>
+            <a class="button" href="">Scopri di più <img src="res/icons/white-arrow.svg" alt=""></a>
+        </div>
+        <div class="column">
+            <img src="res/img/slider1.svg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        </div>
+
+    </section>
+
+    <section id="mission">
+        <p class="title">Mission</p>
+        <h2>Una rete per qualsiasi<br>traduzione</h2>
+        <p>Un network online che lavora per essere mondiale</p>
+        <a class="button" href="">Scopri di più <img src="res/icons/black-arrow.svg" alt=""></a>
+    </section>
+
+    <section id="references">
+        <p>DICONO DI NOI</p>
+        <div class="slider">
+            <div class="comment active">
+                <img src="res/img/comment1.png" alt="" class="avatar">
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, aenean commodo ligula eget dolor
+                        aenean massa
+                    </p>
+                    <span>Nome Cognome, carica</span><br>
+                    <a href="">@profilosocial</a>
+                </div>
+
+            </div>
+            <div class="comment prev">
+                <img src="res/img/comment1.png" alt="" class="avatar">
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, aenean commodo ligula eget dolor
+                        aenean massa
+                    </p>
+                    <span>Nome Cognome, carica</span><br>
+                    <a href="">@profilosocial</a>
+                </div>
+
+            </div>
+            <div class="comment next">
+                <img src="res/img/comment1.png" alt="" class="avatar">
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, aenean commodo ligula eget dolor
+                        aenean massa
+                    </p>
+                    <span>Nome Cognome, carica</span><br>
+                    <a href="">@profilosocial</a>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="controls">
+            <img src="res/icons/arrow.svg" class="mirrored" alt="">
+            <span>1/8</span>
+            <img src="res/icons/arrow.svg" alt="">
+        </div>
+
+    </section>
+
+    <section id="brands">
+        <p>HANNO LAVORATO CON NOI</p>
+        <img src="res/img/brands.svg" alt="">
+    </section>
+
+    <section id="footer">
+        <h1><img src="res/icons/big-arrow-black.svg" alt=""> Inizia ora</h1>
+        <footer>
+            <img src="res/icons/logo.svg" alt="SaiItWell" class="logo" onclick="location.href='index.html'">
+            <div class="links">
+                <a href="">Come funziona</a>
+                <a href="">Chi siamo</a>
+                <a href="">Diventa un waller</a>
+                <a href="">Contattaci</a>
+                <a href="" class="lan active">ITA</a>
+                <a href="" class="lan">ENG</a>
+            </div>
+        </footer>
+        <span>
+            <a href="">©2022 Say It Well</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms and conditions</a>
+            <a href="">FAQ</a>
+        </span>
+    </section>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js'
+        integrity='sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=='
+        crossorigin='anonymous'></script>
+    <script src="ui.js"></script>
+</body>
+
+</html>

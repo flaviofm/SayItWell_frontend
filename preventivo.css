@@ -1,0 +1,126 @@
+section {
+    background-color: #f6f6f6;
+}
+
+.row {
+    width: 100%;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+.block {
+    width: 30%;
+    border-radius: 30px;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.187));
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+    padding: 10px 0px;
+}
+
+
+.prezzo {
+    width: 100%;
+    border-top: 1px solid #cacaca;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.prezzo span {
+    color: #cacaca;
+}
+
+.block h5 {
+    color: #cacaca;
+    margin-bottom: 0px;
+}
+
+.block h3 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.block h5,
+.block h3,
+.block p {
+    margin-left: 50px;
+}
+
+.block p {
+    margin-top: 0px;
+}
+
+.prezzo b {
+    font-size: 1.5em;
+}
+
+.block b {
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.features {
+    color: #cacaca;
+    margin-top: 20px;
+}
+
+section button {
+    padding: 20px 20px;
+    border-radius: calc(40px + 2em);
+    font-size: 1em;
+    border: none;
+    background-color: #4BE3AB;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#collabora {
+    text-align: center;
+    color: white;
+    min-height: 300px;
+    background-color: #4249eb;
+}
+
+#collabora h3 {
+
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+/* #collabora .sprites {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50px;
+}
+#collabora .sprites:last-of-type {
+    right: 50px;
+    left: auto;
+} */
+
+a.button {
+    border-radius: 20px;
+    border-color: white;
+    color: white;
+    max-width: 10em;
+    padding: 4px 0px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+a.button img {
+    margin-left: 1em;
+}
+
+.titles {
+    text-align: center;
+}
+
+h4.titles {
+    font-size: 1.5em;
+}
